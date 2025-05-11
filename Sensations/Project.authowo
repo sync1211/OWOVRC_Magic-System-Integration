@@ -1,0 +1,54 @@
+0~Lightning~45,20,60,0,0,0,&100,1,90,0,0,0,~weapon-0~Elements#
+1~Fire~26,20,28,0,0,0,~weapon-0~Elements#
+2~Ice~75,20,28,0,0,0,|0%100,1%100,2%100,3%100,4%100,5%100~weapon-0~Elements#
+3~Light~100,20,15,0,0,0,|0%100,1%100,2%100,3%100,4%100,5%100~weapon-0~Elements#
+4~Dark~5,20,100,0,0,0,~weapon-0~Elements#
+5~Wind~100,20,40,0,0,0,~weapon-0~Elements#
+6~ChargePrep Lightning~45,3,50,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Lightning#
+7~SprayActive Lightning~45,3,60,0,0,0,|5%100,1%100~weapon-0~Spells - Lightning#
+8~ChargeFire Lightning~45,1,100,0,0,0,|0%100,1%100,4%100~weapon-0~Spells - Lightning#
+9~WeaponActive Lightning~45,3,50,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Lightning#
+10~WeaponAttack Lightning~45,3,70,0,0,0,|0%80,1%80,5%100~weapon-0~Spells - Lightning#
+11~AuraActive Lightning~45,3,30,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Lightning#
+12~CastPrep Lightning~45,3,42,0,0,0,|5%100~weapon-0~Spells - Lightning#
+13~CastFire Lightning~45,6,65,0,500,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Lightning#
+14~ChargePrep Fire~26,3,38,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Fire#
+15~ChargeFire Fire~100,1,100,0,0,0,|0%100,1%100,4%100~weapon-0~Spells - Fire#
+16~SprayActive Fire~26,3,60,0,0,0,|5%100,1%100~weapon-0~Spells - Fire#
+17~WeaponActive Fire~15,3,28,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Fire#
+18~WeaponAttack Fire~15,3,38,0,0,0,|0%80,1%80,5%100~weapon-0~Spells - Fire#
+19~AuraActive Fire~26,3,30,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Fire#
+20~CastPrep Fire~26,3,42,0,0,0,|5%100~weapon-0~Spells - Fire#
+21~CastFire Fire~26,25,60,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Fire#
+22~ChargePrep Ice~75,3,28,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Ice#
+23~ChargeFire Ice~75,1,100,0,0,0,|0%100,1%100,4%100~weapon-0~Spells - Ice#
+24~SprayActive Ice~75,3,40,0,0,0,|5%100,1%100~weapon-0~Spells - Ice#
+25~WeaponActive Ice~75,3,28,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Ice#
+26~WeaponAttack Ice~75,3,40,0,0,0,|0%80,1%80,5%100~weapon-0~Spells - Ice#
+27~AuraActive Ice~75,3,28,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Ice#
+28~CastPrep Ice~75,13,42,0,0,0,|5%100~weapon-0~Spells - Ice#
+29~CastFire Ice~75,12,60,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Ice#
+30~ChargePrep Light~100,3,15,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Light#
+31~ChargeFire Light~100,1,100,0,0,0,|0%100,1%100,4%100~weapon-0~Spells - Light#
+32~SprayActive Light~100,3,15,0,0,0,|5%100,1%100~weapon-0~Spells - Light#
+33~WeaponActive Light~100,3,15,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Light#
+34~WeaponAttack Light~100,3,38,0,0,0,|0%80,1%80,5%100~weapon-0~Spells - Light#
+35~AuraActive Light~100,3,15,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Light#
+36~CastPrep Light~100,3,15,0,0,0,|5%100~weapon-0~Spells - Light#
+37~CastFire Light~100,25,30,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Light#
+38~ChargePrep Dark~5,3,85,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Dark#
+39~ChargeFire Dark~10,1,100,0,0,0,|0%100,1%100,4%100~weapon-0~Spells - Dark#
+40~SprayActive Dark~5,3,100,0,0,0,|5%100,1%100~weapon-0~Spells - Dark#
+41~WeaponActive Dark~5,3,100,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Dark#
+42~WeaponAttack Dark~10,3,100,0,0,0,|0%80,1%80,5%100~weapon-0~Spells - Dark#
+43~AuraActive Dark~5,3,100,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Dark#
+44~CastPrep Dark~5,3,80,0,0,0,|5%100~weapon-0~Spells - Dark#
+45~CastFire Dark~10,25,100,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Dark#
+46~ChargePrep Wind~100,3,30,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Wind#
+47~ChargeFire Wind~100,1,100,0,0,0,|0%100,1%100,4%100~weapon-0~Spells - Wind#
+48~SprayActive Wind~100,3,40,0,0,0,|5%100,1%100~weapon-0~Spells - Wind#
+49~WeaponActive Wind~100,3,35,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Wind#
+50~WeaponAttack Wind~100,3,40,0,0,0,|0%80,1%80,5%100~weapon-0~Spells - Wind#
+51~AuraActive Wind~100,3,40,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Wind#
+52~CastPrep Wind~100,3,40,0,0,0,|5%100~weapon-0~Spells - Wind#
+53~CastFire Wind~100,15,60,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Wind
