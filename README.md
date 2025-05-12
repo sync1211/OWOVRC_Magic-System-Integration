@@ -4,8 +4,6 @@ This repository contains config files for [OWOVRC](https://github.com/sync1211/o
 
 ![Screenshot](./.github/screenshot.png)
 
->**NOTE:** The configuration currently only supports effects on the right hand.
-
 >**NOTE:** These presets are still in alpha. There may be bugs.
 
 ## Installation
