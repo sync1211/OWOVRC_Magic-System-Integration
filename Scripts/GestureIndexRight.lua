@@ -8,6 +8,10 @@ local elementIndexCounter = self.parent.children["ElementIndexRight"]
 local afkIndicator = self.parent.children["AFKIndicator"]
 local spellCircleIndicator = self.parent.children["SpellCircleIndicator"]
 
+-- OSC Sender
+local oscSender = self.parent.children["oscSender"]
+
+
 -- Spell phases
 local chargeReady = self.parent.children["ChargeReady"]
 local chargeCharging = self.parent.children["ChargeCharging"]
@@ -49,17 +53,7 @@ local WEAPON_SPELL_INDEX = 3
 local AURA_SPELL_INDEX = 4
 local CAST_SPELL_INDEX = 5
 
-local ELEMENT_NAMES = {
-    "Lightning",
-    "Fire",
-    "Ice",
-    "Light",
-    "Dark",
-    "Wind"
-}
-
 -- Sensations
-local SENSATION_PATH = "/avatar/parameters/OWO/SensationsTrigger/"
 
 local CHARGE_PREPARE_SENSATION = "ChargePrepareLoop"
 local CHARGE_FIRE_SENSATION = "ChargeFireR"
@@ -295,44 +289,5 @@ end
 function playOWOSensation(sensationName, intensity, elementIndex)
     elementIndex = elementIndex or tonumber(elementIndexCounter.values.text)
 
-    if (elementIndex > #ELEMENT_NAMES) then
-        print(">ERROR: Failed to send sensation: Element index out of range!")
-        print(" ElementIndex:" .. tostring(elementIndex) .. " (known elements: " .. tostring(#ELEMENT_NAMES) .. ")")
-        print(" SensationName: " .. sensationName)
-        print(" Intensity: " .. tostring(intensity))
-        return
-    end
-
-    local elementName = ELEMENT_NAMES[elementIndex]
-    if (elementName == nil) then
-
-        -- Element is none and intensity is 0 => Stop sensation for all indexes
-        if (intensity == 0 and elementIndex == 0) then
-            stopElementalOWOSensations(sensationName)
-            return
-        end
-
-        print(">ERROR: Failed to send sensation: Element name is NIL!")
-        print(" ElementName:" .. tostring(elementName))
-        print(" ElementIndex:" .. tostring(elementIndex) .. " (known elements: " .. tostring(#ELEMENT_NAMES) .. ")")
-        print(" SensationName: " .. sensationName)
-        print(" Intensity: " .. tostring(intensity))
-        return
-    end
-
-    local sensationNameWithElement = sensationName .. "_" .. elementName
-
-    if (intensity > 0) then
-        print("Playing sensation '" .. sensationNameWithElement .. "' at " .. tostring(intensity) .. " intensity")
-    end
-
-    local oscPath = SENSATION_PATH .. sensationNameWithElement
-    sendOSC(oscPath, intensity)
-end
-
-function stopElementalOWOSensations(sensationName)
-    local elementCount = #ELEMENT_NAMES
-    for i=1, elementCount, 1 do
-        playOWOSensation(sensationName, 0, i)
-    end
+    oscSender:notify(sensationName, intensity, elementIndex)
 end
