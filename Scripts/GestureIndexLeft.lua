@@ -1,9 +1,9 @@
 ---@diagnostic disable: undefined-global, lowercase-global
---NOTE: Put this into the receiver for GestureRight
+--NOTE: Put this into the receiver for GestureLeft
 
 -- Avatar state
-local spellIndexCounter = self.parent.children["SpellIndexRight"]
-local elementIndexCounter = self.parent.children["ElementIndexRight"]
+local spellIndexCounter = self.parent.children["SpellIndexLeft"]
+local elementIndexCounter = self.parent.children["ElementIndexLeft"]
 local afkIndicator = self.parent.children["AFKIndicator"]
 local spellCircleIndicator = self.parent.children["SpellCircleIndicator"]
 
@@ -12,23 +12,23 @@ local oscSender = self.parent.children["oscSender"]
 
 
 -- Spell phases
-local chargeReady = self.parent.children["ChargeReadyR"]
-local chargeCharging = self.parent.children["ChargeChargingR"]
-local chargeFire = self.parent.children["ChargeFireR"]
+local chargeReady = self.parent.children["ChargeReadyL"]
+local chargeCharging = self.parent.children["ChargeChargingL"]
+local chargeFire = self.parent.children["ChargeFireL"]
 
-local sprayReady = self.parent.children["SprayReadyR"]
-local sprayActive = self.parent.children["SprayActiveR"]
+local sprayReady = self.parent.children["SprayReadyL"]
+local sprayActive = self.parent.children["SprayActiveL"]
 
-local weaponReady = self.parent.children["WeaponReadyR"]
-local weaponActive = self.parent.children["WeaponActiveR"]
-local weaponFire = self.parent.children["WeaponFireR"]
+local weaponReady = self.parent.children["WeaponReadyL"]
+local weaponActive = self.parent.children["WeaponActiveL"]
+local weaponFire = self.parent.children["WeaponFireL"]
 
-local auraReady = self.parent.children["AuraReadyR"]
-local auraActive = self.parent.children["AuraActiveR"]
+local auraReady = self.parent.children["AuraReadyL"]
+local auraActive = self.parent.children["AuraActiveL"]
 
-local castReady = self.parent.children["CastReadyR"]
-local castCharging = self.parent.children["CastChargingR"]
-local castFire = self.parent.children["CastFireR"]
+local castReady = self.parent.children["CastReadyL"]
+local castCharging = self.parent.children["CastChargingL"]
+local castFire = self.parent.children["CastFireL"]
 
 -- Keep track when the charge spell starts
 local CHARGE_START_TIME = nil

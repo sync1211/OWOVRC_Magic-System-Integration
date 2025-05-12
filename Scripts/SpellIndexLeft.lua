@@ -1,16 +1,16 @@
 ---@diagnostic disable: undefined-global, lowercase-global
---NOTE: Put this into the receiver for SpellIndexRight
+--NOTE: Put this into the receiver for SpellIndexLeft
 --TODO: Support for left hand
 
 -- Avatar state
-local gestureCounter = self.parent.children["GestureIndexRight"]
+local gestureCounter = self.parent.children["GestureIndexLeft"]
 
 -- Spells
-local chargeIndicator = self.parent.children["ChargeIndicatorR"]
-local sprayIndicator = self.parent.children["SprayIndicatorR"]
-local weaponIndicator = self.parent.children["WeaponIndicatorR"]
-local auraIndicator = self.parent.children["AuraIndicatorR"]
-local castIndicator = self.parent.children["CastIndicatorR"]
+local chargeIndicator = self.parent.children["ChargeIndicatorL"]
+local sprayIndicator = self.parent.children["SprayIndicatorL"]
+local weaponIndicator = self.parent.children["WeaponIndicatorL"]
+local auraIndicator = self.parent.children["AuraIndicatorL"]
+local castIndicator = self.parent.children["CastIndicatorL"]
 
 -- Index values
 local CHARGE_SPELL_INDEX = 1

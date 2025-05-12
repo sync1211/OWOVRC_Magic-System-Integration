@@ -1,15 +1,15 @@
 ---@diagnostic disable: undefined-global, lowercase-global
---NOTE: Put this into the receiver for RightHandElement
+--NOTE: Put this into the receiver for LeftHandElement
 --TODO: Support for left hand
 
 
 -- Elements
-local lightningIndicator = self.parent.children["LightningIndicatorR"]
-local fireIndicator = self.parent.children["FireIndicatorR"]
-local iceIndicator = self.parent.children["IceIndicatorR"]
-local lightIndicator = self.parent.children["LightIndicatorR"]
-local darkIndicator = self.parent.children["DarkIndicatorR"]
-local windIndicator = self.parent.children["WindIndicatorR"]
+local lightningIndicator = self.parent.children["LightningIndicatorL"]
+local fireIndicator = self.parent.children["FireIndicatorL"]
+local iceIndicator = self.parent.children["IceIndicatorL"]
+local lightIndicator = self.parent.children["LightIndicatorL"]
+local darkIndicator = self.parent.children["DarkIndicatorL"]
+local windIndicator = self.parent.children["WindIndicatorL"]
 
 
 -- Index values
