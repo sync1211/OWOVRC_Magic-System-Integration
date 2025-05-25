@@ -1,17 +1,17 @@
 {
     "Presets": {
-        "ChargeFireL_Fire": {
+        "ChargeFireR_Fire": {
             "Enabled": true,
-            "Name": "ChargeFireL_Fire",
+            "Name": "ChargeFireR_Fire",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
             "Interruptable": true,
             "SensationString": "3~ChargeFire Fire~100,1,100,0,0,0,|0%100,1%100,5%100~weapon-0~Magic System"
         },
-        "ChargeFireR_Fire": {
+        "ChargeFireL_Fire": {
             "Enabled": true,
-            "Name": "ChargeFireR_Fire",
+            "Name": "ChargeFireL_Fire",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
@@ -27,15 +27,6 @@
             "Interruptable": true,
             "SensationString": "39~ChargePrepare Fir~26,25,38,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Magic System"
         },
-        "SprayActiveLoopL_Fire": {
-            "Enabled": true,
-            "Name": "SprayActiveLoopL_Fire",
-            "Priority": 10,
-            "Intensity": 100,
-            "Loop": true,
-            "Interruptable": true,
-            "SensationString": "2~Spray Fire~26,3,60,0,0,0,|5%100,1%100~weapon-0~Magic System"
-        },
         "SprayActiveLoopR_Fire": {
             "Enabled": true,
             "Name": "SprayActiveLoopR_Fire",
@@ -43,16 +34,16 @@
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
-            "SensationString": "31~Spray Fire~26,3,60,0,0,0,|0%100,4%100~weapon-0~Magic System"
+            "SensationString": "2~Spray Fire~26,3,60,0,0,0,|5%100,1%100~weapon-0~Magic System"
         },
-        "WeaponActiveLoopL_Fire": {
+        "SprayActiveLoopL_Fire": {
             "Enabled": true,
-            "Name": "WeaponActiveLoopL_Fire",
+            "Name": "SprayActiveLoopL_Fire",
             "Priority": 10,
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
-            "SensationString": "4~WeaponActive Fire~15,3,28,0,0,0,|0%100,1%100,5%100~weapon-0~Magic System"
+            "SensationString": "31~Spray Fire~26,3,60,0,0,0,|0%100,4%100~weapon-0~Magic System"
         },
         "WeaponActiveLoopR_Fire": {
             "Enabled": true,
@@ -61,20 +52,29 @@
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
+            "SensationString": "4~WeaponActive Fire~15,3,28,0,0,0,|0%100,1%100,5%100~weapon-0~Magic System"
+        },
+        "WeaponActiveLoopL_Fire": {
+            "Enabled": true,
+            "Name": "WeaponActiveLoopL_Fire",
+            "Priority": 10,
+            "Intensity": 100,
+            "Loop": true,
+            "Interruptable": true,
             "SensationString": "37~WeaponActive Fire~15,3,28,0,0,0,|0%100,1%100,4%100~weapon-0~Magic System"
         },
-        "WeaponAttackL_Fire": {
+        "WeaponAttackR_Fire": {
             "Enabled": true,
-            "Name": "WeaponAttackL_Fire",
+            "Name": "WeaponAttackR_Fire",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
             "SensationString": "5~WeaponAttack Fire~15,3,38,0,0,0,|0%80,1%80,5%100~weapon-0~Magic System"
         },
-        "WeaponAttackR_Fire": {
+        "WeaponAttackL_Fire": {
             "Enabled": true,
-            "Name": "WeaponAttackR_Fire",
+            "Name": "WeaponAttackL_Fire",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
@@ -90,15 +90,6 @@
             "Interruptable": true,
             "SensationString": "30~Aura Fire~26,3,30,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Magic System"
         },
-        "CastFireL_Fire": {
-            "Enabled": true,
-            "Name": "CastFireL_Fire",
-            "Priority": 10,
-            "Intensity": 100,
-            "Loop": false,
-            "Interruptable": false,
-            "SensationString": "0~CastFire Fire~26,25,60,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~"
-        },
         "CastFireR_Fire": {
             "Enabled": true,
             "Name": "CastFireR_Fire",
@@ -106,16 +97,16 @@
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
-            "SensationString": "0~CastFire Fire~26,25,60,0,1000,0,|0%100,1%100,2%100,3%100,4%100~weapon-0~"
+            "SensationString": "0~CastFire Fire~26,25,60,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~"
         },
-        "CastPrepareLoopL_Fire": {
+        "CastFireL_Fire": {
             "Enabled": true,
-            "Name": "CastPrepareLoopL_Fire",
+            "Name": "CastFireL_Fire",
             "Priority": 10,
             "Intensity": 100,
-            "Loop": true,
-            "Interruptable": true,
-            "SensationString": "40~CastPrep Fire~26,13,42,0,0,0,|5%100~weapon-0~Magic System"
+            "Loop": false,
+            "Interruptable": false,
+            "SensationString": "0~CastFire Fire~26,25,60,0,1000,0,|0%100,1%100,2%100,3%100,4%100~weapon-0~"
         },
         "CastPrepareLoopR_Fire": {
             "Enabled": true,
@@ -124,29 +115,38 @@
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
+            "SensationString": "40~CastPrep Fire~26,13,42,0,0,0,|5%100~weapon-0~Magic System"
+        },
+        "CastPrepareLoopL_Fire": {
+            "Enabled": true,
+            "Name": "CastPrepareLoopL_Fire",
+            "Priority": 10,
+            "Intensity": 100,
+            "Loop": true,
+            "Interruptable": true,
             "SensationString": "0~CastPrep Fire~26,13,42,0,0,0,|4%100~weapon-0~Magic System"
         },
-        "CastPrepareLoopR_Dark": {
+        "CastPrepareLoopL_Dark": {
             "Enabled": true,
-            "Name": "CastPrepareLoopR_Dark",
+            "Name": "CastPrepareLoopL_Dark",
             "Priority": 10,
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
             "SensationString": "44~CastPrep Dark~5,3,80,0,0,0,|4%100~weapon-0~Spells - Dark"
         },
-        "ChargeFireL_Dark": {
+        "ChargeFireR_Dark": {
             "Enabled": true,
-            "Name": "ChargeFireL_Dark",
+            "Name": "ChargeFireR_Dark",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
             "SensationString": "39~ChargeFire Dark~10,1,100,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Dark"
         },
-        "ChargeFireR_Dark": {
+        "ChargeFireL_Dark": {
             "Enabled": true,
-            "Name": "ChargeFireR_Dark",
+            "Name": "ChargeFireL_Dark",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
@@ -162,15 +162,6 @@
             "Interruptable": true,
             "SensationString": "38~ChargePrep Dark~5,3,85,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Dark"
         },
-        "SprayActiveLoopL_Dark": {
-            "Enabled": true,
-            "Name": "SprayActiveLoopL_Dark",
-            "Priority": 10,
-            "Intensity": 100,
-            "Loop": true,
-            "Interruptable": true,
-            "SensationString": "40~SprayActive Dark~5,3,100,0,0,0,|5%100,1%100~weapon-0~Spells - Dark"
-        },
         "SprayActiveLoopR_Dark": {
             "Enabled": true,
             "Name": "SprayActiveLoopR_Dark",
@@ -178,16 +169,16 @@
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
-            "SensationString": "40~SprayActive Dark~5,3,100,0,0,0,|4%100,0%100~weapon-0~Spells - Dark"
+            "SensationString": "40~SprayActive Dark~5,3,100,0,0,0,|5%100,1%100~weapon-0~Spells - Dark"
         },
-        "WeaponActiveLoopL_Dark": {
+        "SprayActiveLoopL_Dark": {
             "Enabled": true,
-            "Name": "WeaponActiveLoopL_Dark",
+            "Name": "SprayActiveLoopL_Dark",
             "Priority": 10,
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
-            "SensationString": "41~WeaponActive Dark~5,3,100,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Dark"
+            "SensationString": "40~SprayActive Dark~5,3,100,0,0,0,|4%100,0%100~weapon-0~Spells - Dark"
         },
         "WeaponActiveLoopR_Dark": {
             "Enabled": true,
@@ -196,20 +187,29 @@
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
+            "SensationString": "41~WeaponActive Dark~5,3,100,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Dark"
+        },
+        "WeaponActiveLoopL_Dark": {
+            "Enabled": true,
+            "Name": "WeaponActiveLoopL_Dark",
+            "Priority": 10,
+            "Intensity": 100,
+            "Loop": true,
+            "Interruptable": true,
             "SensationString": "41~WeaponActive Dark~5,3,100,0,0,0,|0%100,1%100,4%100~weapon-0~Spells - Dark"
         },
-        "WeaponAttackL_Dark": {
+        "WeaponAttackR_Dark": {
             "Enabled": true,
-            "Name": "WeaponAttackL_Dark",
+            "Name": "WeaponAttackR_Dark",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
             "SensationString": "42~WeaponAttack Dark~10,3,100,0,0,0,|0%80,1%80,5%100~weapon-0~Spells - Dark"
         },
-        "WeaponAttackR_Dark": {
+        "WeaponAttackL_Dark": {
             "Enabled": true,
-            "Name": "WeaponAttackR_Dark",
+            "Name": "WeaponAttackL_Dark",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
@@ -225,15 +225,6 @@
             "Interruptable": true,
             "SensationString": "43~AuraActive Dark~5,3,100,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Dark"
         },
-        "CastFireL_Dark": {
-            "Enabled": true,
-            "Name": "CastFireL_Dark",
-            "Priority": 10,
-            "Intensity": 100,
-            "Loop": false,
-            "Interruptable": false,
-            "SensationString": "45~CastFire Dark~10,25,100,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Dark"
-        },
         "CastFireR_Dark": {
             "Enabled": true,
             "Name": "CastFireR_Dark",
@@ -241,38 +232,47 @@
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
+            "SensationString": "45~CastFire Dark~10,25,100,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Dark"
+        },
+        "CastFireL_Dark": {
+            "Enabled": true,
+            "Name": "CastFireL_Dark",
+            "Priority": 10,
+            "Intensity": 100,
+            "Loop": false,
+            "Interruptable": false,
             "SensationString": "45~CastFire Dark~10,25,100,0,1000,0,|0%100,1%100,2%100,3%100,4%100~weapon-0~Spells - Dark"
         },
-        "CastPrepareLoopL_Dark": {
+        "CastPrepareLoopR_Dark": {
             "Enabled": true,
-            "Name": "CastPrepareLoopL_Dark",
+            "Name": "CastPrepareLoopR_Dark",
             "Priority": 10,
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
             "SensationString": "44~CastPrep Dark~5,3,80,0,0,0,|5%100~weapon-0~Spells - Dark"
         },
-        "CastPrepareLoopR_Ice": {
+        "CastPrepareLoopL_Ice": {
             "Enabled": true,
-            "Name": "CastPrepareLoopR_Ice",
+            "Name": "CastPrepareLoopL_Ice",
             "Priority": 10,
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
             "SensationString": "28~CastPrep Ice~75,13,42,0,0,0,|4%100~weapon-0~Spells - Ice"
         },
-        "ChargeFireL_Ice": {
+        "ChargeFireR_Ice": {
             "Enabled": true,
-            "Name": "ChargeFireL_Ice",
+            "Name": "ChargeFireR_Ice",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
             "SensationString": "23~ChargeFire Ice~75,1,100,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Ice"
         },
-        "ChargeFireR_Ice": {
+        "ChargeFireL_Ice": {
             "Enabled": true,
-            "Name": "ChargeFireR_Ice",
+            "Name": "ChargeFireL_Ice",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
@@ -288,15 +288,6 @@
             "Interruptable": true,
             "SensationString": "22~ChargePrep Ice~75,3,28,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Ice"
         },
-        "SprayActiveLoopL_Ice": {
-            "Enabled": true,
-            "Name": "SprayActiveLoopL_Ice",
-            "Priority": 10,
-            "Intensity": 100,
-            "Loop": true,
-            "Interruptable": true,
-            "SensationString": "24~SprayActive Ice~75,3,40,0,0,0,|5%100,1%100~weapon-0~Spells - Ice"
-        },
         "SprayActiveLoopR_Ice": {
             "Enabled": true,
             "Name": "SprayActiveLoopR_Ice",
@@ -304,16 +295,16 @@
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
-            "SensationString": "24~SprayActive Ice~75,3,40,0,0,0,|0%100,4%100~weapon-0~Spells - Ice"
+            "SensationString": "24~SprayActive Ice~75,3,40,0,0,0,|5%100,1%100~weapon-0~Spells - Ice"
         },
-        "WeaponActiveLoopL_Ice": {
+        "SprayActiveLoopL_Ice": {
             "Enabled": true,
-            "Name": "WeaponActiveLoopL_Ice",
+            "Name": "SprayActiveLoopL_Ice",
             "Priority": 10,
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
-            "SensationString": "25~WeaponActive Ice~75,3,28,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Ice"
+            "SensationString": "24~SprayActive Ice~75,3,40,0,0,0,|0%100,4%100~weapon-0~Spells - Ice"
         },
         "WeaponActiveLoopR_Ice": {
             "Enabled": true,
@@ -322,20 +313,29 @@
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
+            "SensationString": "25~WeaponActive Ice~75,3,28,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Ice"
+        },
+        "WeaponActiveLoopL_Ice": {
+            "Enabled": true,
+            "Name": "WeaponActiveLoopL_Ice",
+            "Priority": 10,
+            "Intensity": 100,
+            "Loop": true,
+            "Interruptable": true,
             "SensationString": "25~WeaponActive Ice~75,3,28,0,0,0,|0%100,1%100,4%100~weapon-0~Spells - Ice"
         },
-        "WeaponAttackL_Ice": {
+        "WeaponAttackR_Ice": {
             "Enabled": true,
-            "Name": "WeaponAttackL_Ice",
+            "Name": "WeaponAttackR_Ice",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
             "SensationString": "26~WeaponAttack Ice~75,3,40,0,0,0,|0%80,1%80,5%100~weapon-0~Spells - Ice"
         },
-        "WeaponAttackR_Ice": {
+        "WeaponAttackL_Ice": {
             "Enabled": true,
-            "Name": "WeaponAttackR_Ice",
+            "Name": "WeaponAttackL_Ice",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
@@ -351,15 +351,6 @@
             "Interruptable": true,
             "SensationString": "27~AuraActive Ice~75,3,28,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Ice"
         },
-        "CastFireL_Ice": {
-            "Enabled": true,
-            "Name": "CastFireL_Ice",
-            "Priority": 10,
-            "Intensity": 100,
-            "Loop": false,
-            "Interruptable": false,
-            "SensationString": "29~CastFire Ice~75,12,60,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Ice"
-        },
         "CastFireR_Ice": {
             "Enabled": true,
             "Name": "CastFireR_Ice",
@@ -367,38 +358,47 @@
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
+            "SensationString": "29~CastFire Ice~75,12,60,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Ice"
+        },
+        "CastFireL_Ice": {
+            "Enabled": true,
+            "Name": "CastFireL_Ice",
+            "Priority": 10,
+            "Intensity": 100,
+            "Loop": false,
+            "Interruptable": false,
             "SensationString": "29~CastFire Ice~75,12,60,0,1000,0,|0%100,1%100,2%100,3%100,4%100~weapon-0~Spells - Ice"
         },
-        "CastPrepareLoopL_Ice": {
+        "CastPrepareLoopR_Ice": {
             "Enabled": true,
-            "Name": "CastPrepareLoopL_Ice",
+            "Name": "CastPrepareLoopR_Ice",
             "Priority": 10,
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
             "SensationString": "28~CastPrep Ice~75,13,42,0,0,0,|5%100~weapon-0~Spells - Ice"
         },
-        "CastPrepareLoopR_Light": {
+        "CastPrepareLoopL_Light": {
             "Enabled": true,
-            "Name": "CastPrepareLoopR_Light",
+            "Name": "CastPrepareLoopL_Light",
             "Priority": 10,
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
             "SensationString": "36~CastPrep Light~100,3,15,0,0,0,|4%100~weapon-0~Spells - Light"
         },
-        "ChargeFireL_Light": {
+        "ChargeFireR_Light": {
             "Enabled": true,
-            "Name": "ChargeFireL_Light",
+            "Name": "ChargeFireR_Light",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
             "SensationString": "31~ChargeFire Light~100,1,100,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Light"
         },
-        "ChargeFireR_Light": {
+        "ChargeFireL_Light": {
             "Enabled": true,
-            "Name": "ChargeFireR_Light",
+            "Name": "ChargeFireL_Light",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
@@ -414,15 +414,6 @@
             "Interruptable": true,
             "SensationString": "30~ChargePrep Light~100,3,15,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Light"
         },
-        "SprayActiveLoopL_Light": {
-            "Enabled": true,
-            "Name": "SprayActiveLoopL_Light",
-            "Priority": 10,
-            "Intensity": 100,
-            "Loop": true,
-            "Interruptable": true,
-            "SensationString": "32~SprayActive Light~100,3,15,0,0,0,|5%100,1%100~weapon-0~Spells - Light"
-        },
         "SprayActiveLoopR_Light": {
             "Enabled": true,
             "Name": "SprayActiveLoopR_Light",
@@ -430,16 +421,16 @@
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
-            "SensationString": "32~SprayActive Light~100,3,15,0,0,0,|4%100,0%100~weapon-0~Spells - Light"
+            "SensationString": "32~SprayActive Light~100,3,15,0,0,0,|5%100,1%100~weapon-0~Spells - Light"
         },
-        "WeaponActiveLoopL_Light": {
+        "SprayActiveLoopL_Light": {
             "Enabled": true,
-            "Name": "WeaponActiveLoopL_Light",
+            "Name": "SprayActiveLoopL_Light",
             "Priority": 10,
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
-            "SensationString": "33~WeaponActive Light~100,3,15,0,0,0,|0%100,1%100,4%100~weapon-0~Spells - Light"
+            "SensationString": "32~SprayActive Light~100,3,15,0,0,0,|4%100,0%100~weapon-0~Spells - Light"
         },
         "WeaponActiveLoopR_Light": {
             "Enabled": true,
@@ -448,20 +439,29 @@
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
+            "SensationString": "33~WeaponActive Light~100,3,15,0,0,0,|0%100,1%100,4%100~weapon-0~Spells - Light"
+        },
+        "WeaponActiveLoopL_Light": {
+            "Enabled": true,
+            "Name": "WeaponActiveLoopL_Light",
+            "Priority": 10,
+            "Intensity": 100,
+            "Loop": true,
+            "Interruptable": true,
             "SensationString": "33~WeaponActive Light~100,3,15,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Light"
         },
-        "WeaponAttackL_Light": {
+        "WeaponAttackR_Light": {
             "Enabled": true,
-            "Name": "WeaponAttackL_Light",
+            "Name": "WeaponAttackR_Light",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
             "SensationString": "34~WeaponAttack Light~100,3,38,0,0,0,|0%80,1%80,5%100~weapon-0~Spells - Light"
         },
-        "WeaponAttackR_Light": {
+        "WeaponAttackL_Light": {
             "Enabled": true,
-            "Name": "WeaponAttackR_Light",
+            "Name": "WeaponAttackL_Light",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
@@ -477,15 +477,6 @@
             "Interruptable": true,
             "SensationString": "35~AuraActive Light~100,3,15,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Light"
         },
-        "CastFireL_Light": {
-            "Enabled": true,
-            "Name": "CastFireL_Light",
-            "Priority": 10,
-            "Intensity": 100,
-            "Loop": false,
-            "Interruptable": false,
-            "SensationString": "37~CastFire Light~100,25,30,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Light"
-        },
         "CastFireR_Light": {
             "Enabled": true,
             "Name": "CastFireR_Light",
@@ -493,20 +484,29 @@
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
+            "SensationString": "37~CastFire Light~100,25,30,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Light"
+        },
+        "CastFireL_Light": {
+            "Enabled": true,
+            "Name": "CastFireL_Light",
+            "Priority": 10,
+            "Intensity": 100,
+            "Loop": false,
+            "Interruptable": false,
             "SensationString": "37~CastFire Light~100,25,30,0,1000,0,|0%100,1%100,2%100,3%100,4%100~weapon-0~Spells - Light"
         },
-        "CastPrepareLoopL_Light": {
+        "CastPrepareLoopR_Light": {
             "Enabled": true,
-            "Name": "CastPrepareLoopL_Light",
+            "Name": "CastPrepareLoopR_Light",
             "Priority": 10,
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
             "SensationString": "36~CastPrep Light~100,3,15,0,0,0,|5%100~weapon-0~Spells - Light"
         },
-        "ChargeFireR_Lightning": {
+        "ChargeFireL_Lightning": {
             "Enabled": true,
-            "Name": "ChargeFireR_Lightning",
+            "Name": "ChargeFireL_Lightning",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
@@ -522,15 +522,6 @@
             "Interruptable": true,
             "SensationString": "6~ChargePrep Lightning~45,3,50,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Lightning"
         },
-        "SprayActiveLoopL_Lightning": {
-            "Enabled": true,
-            "Name": "SprayActiveLoopL_Lightning",
-            "Priority": 10,
-            "Intensity": 100,
-            "Loop": true,
-            "Interruptable": true,
-            "SensationString": "7~SprayActive Lightning~45,3,60,0,0,0,|5%100,1%100~weapon-0~Spells - Lightning"
-        },
         "SprayActiveLoopR_Lightning": {
             "Enabled": true,
             "Name": "SprayActiveLoopR_Lightning",
@@ -538,16 +529,16 @@
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
-            "SensationString": "7~SprayActive Lightning~45,3,60,0,0,0,|0%100,4%100~weapon-0~Spells - Lightning"
+            "SensationString": "7~SprayActive Lightning~45,3,60,0,0,0,|5%100,1%100~weapon-0~Spells - Lightning"
         },
-        "WeaponActiveLoopL_Lightning": {
+        "SprayActiveLoopL_Lightning": {
             "Enabled": true,
-            "Name": "WeaponActiveLoopL_Lightning",
+            "Name": "SprayActiveLoopL_Lightning",
             "Priority": 10,
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
-            "SensationString": "9~WeaponActive Lightning~45,3,50,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Lightning"
+            "SensationString": "7~SprayActive Lightning~45,3,60,0,0,0,|0%100,4%100~weapon-0~Spells - Lightning"
         },
         "WeaponActiveLoopR_Lightning": {
             "Enabled": true,
@@ -556,20 +547,29 @@
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
+            "SensationString": "9~WeaponActive Lightning~45,3,50,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Lightning"
+        },
+        "WeaponActiveLoopL_Lightning": {
+            "Enabled": true,
+            "Name": "WeaponActiveLoopL_Lightning",
+            "Priority": 10,
+            "Intensity": 100,
+            "Loop": true,
+            "Interruptable": true,
             "SensationString": "9~WeaponActive Lightning~45,3,50,0,0,0,|0%100,1%100,4%100~weapon-0~Spells - Lightning"
         },
-        "WeaponAttackL_Lightning": {
+        "WeaponAttackR_Lightning": {
             "Enabled": true,
-            "Name": "WeaponAttackL_Lightning",
+            "Name": "WeaponAttackR_Lightning",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
             "SensationString": "10~WeaponAttack Lightning~45,3,70,0,0,0,|0%80,1%80,5%100~weapon-0~Spells - Lightning"
         },
-        "WeaponAttackR_Lightning": {
+        "WeaponAttackL_Lightning": {
             "Enabled": true,
-            "Name": "WeaponAttackR_Lightning",
+            "Name": "WeaponAttackL_Lightning",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
@@ -585,15 +585,6 @@
             "Interruptable": true,
             "SensationString": "11~AuraActive Lightning~45,3,30,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Lightning"
         },
-        "CastFireL_Lightning": {
-            "Enabled": true,
-            "Name": "CastFireL_Lightning",
-            "Priority": 10,
-            "Intensity": 100,
-            "Loop": false,
-            "Interruptable": false,
-            "SensationString": "13~CastFire Lightning~45,6,65,0,500,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Lightning"
-        },
         "CastFireR_Lightning": {
             "Enabled": true,
             "Name": "CastFireR_Lightning",
@@ -601,16 +592,16 @@
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
-            "SensationString": "13~CastFire Lightning~45,6,65,0,500,0,|0%100,1%100,2%100,3%100,4%100~weapon-0~Spells - Lightning"
+            "SensationString": "13~CastFire Lightning~45,6,65,0,500,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Lightning"
         },
-        "CastPrepareLoopL_Lightning": {
+        "CastFireL_Lightning": {
             "Enabled": true,
-            "Name": "CastPrepareLoopL_Lightning",
+            "Name": "CastFireL_Lightning",
             "Priority": 10,
             "Intensity": 100,
-            "Loop": true,
-            "Interruptable": true,
-            "SensationString": "12~CastPrep Lightning~45,3,42,0,0,0,|5%100~weapon-0~Spells - Lightning"
+            "Loop": false,
+            "Interruptable": false,
+            "SensationString": "13~CastFire Lightning~45,6,65,0,500,0,|0%100,1%100,2%100,3%100,4%100~weapon-0~Spells - Lightning"
         },
         "CastPrepareLoopR_Lightning": {
             "Enabled": true,
@@ -619,29 +610,38 @@
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
+            "SensationString": "12~CastPrep Lightning~45,3,42,0,0,0,|5%100~weapon-0~Spells - Lightning"
+        },
+        "CastPrepareLoopL_Lightning": {
+            "Enabled": true,
+            "Name": "CastPrepareLoopL_Lightning",
+            "Priority": 10,
+            "Intensity": 100,
+            "Loop": true,
+            "Interruptable": true,
             "SensationString": "12~CastPrep Lightning~45,3,42,0,0,0,|4%100~weapon-0~Spells - Lightning"
         },
-        "ChargeFireL_Lightning": {
+        "ChargeFireR_Lightning": {
             "Enabled": true,
-            "Name": "ChargeFireL_Lightning",
+            "Name": "ChargeFireR_Lightning",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
             "SensationString": "8~ChargeFire Lightning~45,1,100,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Lightning"
         },
-        "ChargeFireL_Wind": {
+        "ChargeFireR_Wind": {
             "Enabled": true,
-            "Name": "ChargeFireL_Wind",
+            "Name": "ChargeFireR_Wind",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
             "SensationString": "47~ChargeFire Wind~100,1,100,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Wind"
         },
-        "ChargeFireR_Wind": {
+        "ChargeFireL_Wind": {
             "Enabled": true,
-            "Name": "ChargeFireR_Wind",
+            "Name": "ChargeFireL_Wind",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
@@ -657,15 +657,6 @@
             "Interruptable": true,
             "SensationString": "46~ChargePrep Wind~100,3,30,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Wind"
         },
-        "SprayActiveLoopL_Wind": {
-            "Enabled": true,
-            "Name": "SprayActiveLoopL_Wind",
-            "Priority": 10,
-            "Intensity": 100,
-            "Loop": true,
-            "Interruptable": true,
-            "SensationString": "48~SprayActive Wind~100,3,40,0,0,0,|5%100,1%100~weapon-0~Spells - Wind"
-        },
         "SprayActiveLoopR_Wind": {
             "Enabled": true,
             "Name": "SprayActiveLoopR_Wind",
@@ -673,16 +664,16 @@
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
-            "SensationString": "48~SprayActive Wind~100,3,40,0,0,0,|4%100,0%100~weapon-0~Spells - Wind"
+            "SensationString": "48~SprayActive Wind~100,3,40,0,0,0,|5%100,1%100~weapon-0~Spells - Wind"
         },
-        "WeaponActiveLoopL_Wind": {
+        "SprayActiveLoopL_Wind": {
             "Enabled": true,
-            "Name": "WeaponActiveLoopL_Wind",
+            "Name": "SprayActiveLoopL_Wind",
             "Priority": 10,
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
-            "SensationString": "49~WeaponActive Wind~100,3,35,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Wind"
+            "SensationString": "48~SprayActive Wind~100,3,40,0,0,0,|4%100,0%100~weapon-0~Spells - Wind"
         },
         "WeaponActiveLoopR_Wind": {
             "Enabled": true,
@@ -691,20 +682,29 @@
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
+            "SensationString": "49~WeaponActive Wind~100,3,35,0,0,0,|0%100,1%100,5%100~weapon-0~Spells - Wind"
+        },
+        "WeaponActiveLoopL_Wind": {
+            "Enabled": true,
+            "Name": "WeaponActiveLoopL_Wind",
+            "Priority": 10,
+            "Intensity": 100,
+            "Loop": true,
+            "Interruptable": true,
             "SensationString": "49~WeaponActive Wind~100,3,35,0,0,0,|0%100,1%100,4%100~weapon-0~Spells - Wind"
         },
-        "WeaponAttackL_Wind": {
+        "WeaponAttackR_Wind": {
             "Enabled": true,
-            "Name": "WeaponAttackL_Wind",
+            "Name": "WeaponAttackR_Wind",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
             "SensationString": "50~WeaponAttack Wind~100,3,40,0,0,0,|0%80,1%80,5%100~weapon-0~Spells - Wind"
         },
-        "WeaponAttackR_Wind": {
+        "WeaponAttackL_Wind": {
             "Enabled": true,
-            "Name": "WeaponAttackR_Wind",
+            "Name": "WeaponAttackL_Wind",
             "Priority": 10,
             "Intensity": 100,
             "Loop": false,
@@ -720,15 +720,6 @@
             "Interruptable": true,
             "SensationString": "51~AuraActive Wind~100,3,40,0,0,0,|0%100,1%100,2%100,3%100~weapon-0~Spells - Wind"
         },
-        "CastFireL_Wind": {
-            "Enabled": true,
-            "Name": "CastFireL_Wind",
-            "Priority": 10,
-            "Intensity": 100,
-            "Loop": false,
-            "Interruptable": false,
-            "SensationString": "53~CastFire Wind~100,15,60,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Wind"
-        },
         "CastFireR_Wind": {
             "Enabled": true,
             "Name": "CastFireR_Wind",
@@ -736,20 +727,29 @@
             "Intensity": 100,
             "Loop": false,
             "Interruptable": false,
+            "SensationString": "53~CastFire Wind~100,15,60,0,1000,0,|0%100,1%100,2%100,3%100,5%100~weapon-0~Spells - Wind"
+        },
+        "CastFireL_Wind": {
+            "Enabled": true,
+            "Name": "CastFireL_Wind",
+            "Priority": 10,
+            "Intensity": 100,
+            "Loop": false,
+            "Interruptable": false,
             "SensationString": "53~CastFire Wind~100,15,60,0,1000,0,|0%100,1%100,2%100,3%100,4%100~weapon-0~Spells - Wind"
         },
-        "CastPrepareLoopL_Wind": {
+        "CastPrepareLoopR_Wind": {
             "Enabled": true,
-            "Name": "CastPrepareLoopL_Wind",
+            "Name": "CastPrepareLoopR_Wind",
             "Priority": 10,
             "Intensity": 100,
             "Loop": true,
             "Interruptable": true,
             "SensationString": "52~CastPrep Wind~100,3,40,0,0,0,|5%100~weapon-0~Spells - Wind"
         },
-        "CastPrepareLoopR_Wind": {
+        "CastPrepareLoopL_Wind": {
             "Enabled": true,
-            "Name": "CastPrepareLoopR_Wind",
+            "Name": "CastPrepareLoopL_Wind",
             "Priority": 10,
             "Intensity": 100,
             "Loop": true,
