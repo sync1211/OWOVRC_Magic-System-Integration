@@ -8,6 +8,8 @@ This integration does not require any modification of the original Magic Circle 
 
 >**NOTE:** These presets are still in alpha. There may be bugs.
 
+This integration was tested on the Magic System asset released on 21.10.2024.
+
 ## Installation
 
 * Import `oscPresets.json` into [OWOVRC's Presets effect](https://github.com/sync1211/owoskin-vrc/wiki/Effects#presets)
