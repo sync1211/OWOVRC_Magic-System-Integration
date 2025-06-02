@@ -286,7 +286,9 @@ function UpdateCastSpellPhases(spellIndex, gestureIndex)
         playOWOSensation(CAST_FIRE_SENSATION, 1.0)
         --TODO: Wait / Cooldown
     else
+        -- Ready phase
         castReady.values.x = true
+        stopOWOSensation(CAST_PREPARE_SENSATION)
     end
 end
 
