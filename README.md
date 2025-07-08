@@ -1,6 +1,6 @@
 # OWOVRC Magic System Integration
 
-This repository contains config files for [OWOVRC](https://github.com/sync1211/owoskin-vrc) and [TouchOSC](https://hexler.net/touchosc) for adding haptic feedback to [Raideus's Magic Circle System](https://jinxxy.com/Raideus/Magic) via the [OWO Suit](https://owogame.com/)
+This repository contains config files for [OWOVRC](https://github.com/sync1211/owoskin-vrc) and [TouchOSC](https://hexler.net/touchosc) for adding haptic feedback to [Raideus' Magic Circle System](https://jinxxy.com/Raideus/Magic) via the [OWO Suit](https://owogame.com/)
 
 This integration does not require any modification of the original Magic Circle asset and as such works on public avatars with very little setup.
 
